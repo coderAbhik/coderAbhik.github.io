@@ -1,0 +1,40 @@
+/* Contact Page Styles */
+.contact {
+  padding: 120px 20px 100px;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact input, .contact textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #2575fc;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact button:hover {
+    background: #1a5bbf;
+  }
+
+  .contact form input,
+.contact form textarea {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+}
